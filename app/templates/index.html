@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Evaluación de Obsolescencia de Equipos Biomédicos | IVS</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+/* revisar esto porque aca van a ir las opciones*/
+  <header class="topbar">
+    <div class="topbar__inner">
+      <div class="brand">
+        <img src="{{ url_for('static', filename='img/logo-ivs.png') }}" alt="Logo IVS" class="brand__logo">
+        <span class="brand__name">...</span> 
+      </div>
+    </div>
+  </header>
+  
+  <main class="hero">
+    <div class="hero__grid">
+
+      <div class="hero__text">
+
+        <p class="hero__eyebrow">Gestión de tecnología biomédica</p>
+
+        <h1 class="hero__title">
+          Base de datos para la evaluación de
+          <span class="hero__title-accent">obsolescencia</span> de equipos biomédicos
+        </h1>
+
+        <p class="hero__desc">
+          Esta plataforma es una metodología de evaluación de obsolescencia de equipos biomédicos 
+          para la empresa 
+          Imágenes de Vida y Salud, que integre criterios técnicos, clínicos y económicos, 
+          involucrando tanto al área de ingeniería como al personal administrativo y 
+          asistencial en la toma de decisiones, con el fin de apoyar el proceso de renovación 
+          tecnológica, actualización de la tecnología y disposición final de los dispositivos 
+          biomédicos. 
+        </p>
+
+        <a href="{{ url_for('inicio') }}" class="btn-comenzar">
+          Comenzar
+          <span class="btn-comenzar__arrow" aria-hidden="true">→</span>
+        </a>
+
+      </div>
+
+      <div class="hero__media">
+        <img src="{{ url_for('static', filename='img/tomografo.jpg') }}" alt="Tomógrafo IVS" class="hero__img">
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>IVS · Imágenes de Vida y Salud — Práctica de ingeniería biomédica</p>
+  </footer>
+
+</body>
+</html>
