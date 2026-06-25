@@ -1,0 +1,10 @@
+IVS/
+__pycache__/
+*.pyc
+instance/*.db
+uploads/*
+!uploads/.gitkeep
+*.spec
+build/
+dist/
+.vscode/
